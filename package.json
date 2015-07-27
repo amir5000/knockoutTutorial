@@ -1,0 +1,33 @@
+{
+  "name": "knockoutjstutorial",
+  "version": "1.0.0-2",
+  "description": "learning knockout js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir5000/knockoutTutorial.git"
+  },
+  "keywords": [
+    "knockoutJs",
+    "javascript",
+    "tutorial"
+  ],
+  "author": "Amir5000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amir5000/knockoutTutorial/issues"
+  },
+  "homepage": "https://github.com/amir5000/knockoutTutorial#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "knockout": "^3.3.0"
+  },
+  "subdomain": "undefined-knockoutTutorial",
+  "engines": {
+    "node": "0.10.x"
+  }
+}

@@ -13,9 +13,10 @@
 			<h5>Please enter a car manufacturer:</h5>
 			<div class="form-group">
 				<label for="car">Car Maker:</label>
-				<input type="text" id="car" data-bind="value: car, valueUpdate: 'afterkeydown'" placeholder="Car Maker" />
-				<input type="submit" class="btn btn-primary" data-bind="click: addCar" />
-				<p class="pull-right">What you have enter in so far: <span class="live-text pull-right" data-bind="text: car"></span></p>
+				<input type="text" id="car" data-bind="textInput: car" placeholder="Car Maker" />
+				<input type="submit" class="btn btn-primary" data-bind="click: addCar, registerClick,  enable: car" />
+				<p class="pull-right">What you have enter in so far: <span class="live-text pull-right" data-bind="text: car">&nbsp;</span></p>
+				<p class="clearfix">Number of car makers added: <span data-bind='text: numberOfClicks'>&nbsp;</span></p>
 			</div>
 			<ul data-bind="foreach: array">
 				<li data-bind="text: $data"></li>

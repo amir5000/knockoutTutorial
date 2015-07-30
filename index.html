@@ -12,9 +12,9 @@
 				<h2 class="text-center"><strong>Knockout JS</strong> web app</h2>
 				<h5>Please enter a car manufacturer:</h5>
 				<div class="form-group">
-					<label for="car">Car Maker:</label>
+					<label for="car">Add a Car Maker:</label>
 					<input maxlength="14" type="text" id="car" data-bind="textInput: car" placeholder="Car Maker" />
-					<input type="submit" class="btn btn-primary" data-bind="click: addCar, registerClick,  enable: car" />
+					<input type="submit" value="Add to list" class="btn btn-primary" data-bind="click: addCar, registerClick,  enable: car" />
 					<p class="clearfix">Number of car manufacturers added: <span data-bind='text: numberOfClicks'>&nbsp;</span></p>
 				</div>
 				

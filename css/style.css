@@ -15,3 +15,37 @@ h2 {
 	border-bottom: 1px solid #aaa;
 	height: 30px;
 }
+
+ul {
+	margin: 0;
+}
+
+li {
+	padding: 2.5px 10px;
+}
+
+.faded {
+	opacity: 0.6;
+}
+
+.bkg-fade {
+    background-color: #eee;
+    -webkit-animation-name: bkgFade;
+    -webkit-animation-duration: 1s;
+    animation-name: bkgFade;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes bkgFade {
+    0%   {background-color: white;}
+    2%   {background-color: yellow;}
+    50%  {background-color: lightyellow;}
+    100% {background-color: #eee;}
+}
+
+@keyframes bkgFade {
+    0%   {background-color: white;}
+    2%   {background-color: yellow;}
+    50%  {background-color: lightyellow;}
+    100% {background-color: #eee;}
+}
